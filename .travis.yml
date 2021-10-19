@@ -1,6 +1,6 @@
 language: python
 install:
-  -pip install -r requirements.txt
+  - pip install -r requirements.txt
 script:
-  -black .
-  -flake8
+  - black .
+  - flake8
